@@ -18,11 +18,9 @@ $ yarn install
 
 ### Configuration
 #### Initialize Amplify in React application
-```sh
-$ amplify init
 
-* Accept defaults and provide values to those you wish to have as part of initializing amplify environment
-```
+[Please check amplify configuration](CONFIGURE_AMPLIFY.md)
+
 
 
 #### Add Authetication capability
@@ -44,3 +42,11 @@ $ yarn start
 * Check your mobile for the verification code. If you haven't received, confirm the user manually from AWS Cognito console
 * Login with the phone number and password
 * should be routed to home page with logout button displayed in the header
+
+
+#### Run Tests
+```
+$ npm run test
+or
+$ yarn test
+```
